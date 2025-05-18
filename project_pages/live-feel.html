@@ -6,38 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LiveFeel – Paula Bass Werner</title>
     <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="LiveFeel iOS App – Emotional Streaming App by Paula Bass Werner">
 </head>
 
 <body>
 
-    <!-- Navbar -->
+    <!-- Navigation -->
     <nav id="navbar">
         <div class="container">
             <div class="logo"><a href="index.html">Paula Bass Werner</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#education">Education</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="resume.pdf" target="_blank" class="btn">CV</a></li>
+            </ul>
         </div>
     </nav>
 
     <!-- Project Detail Section -->
-    <section class="project-detail">
+    <section class="project-detail" style="padding-top: 8rem;">
         <div class="container">
             <h1 class="section-title">LiveFeel – Appraisal Streaming iOS App</h1>
 
-            <p>
+            <p style="font-size: 1.1rem; max-width: 800px; margin: 1.5rem auto;">
                 <strong>LiveFeel</strong> is an iOS application developed to stream real-time emotional intensity data
                 during live performances.
                 The app uses a low-latency UDP pipeline to send self-reported appraisals to a TouchDesigner
                 visualization in sync with music.
             </p>
 
-            <h2>🎥 Video Presentation</h2>
-            <iframe src="https://drive.google.com/file/d/1BZu-OeAn8KMWSIRsTtF8JNkD97Yl97E-/preview" width="100%"
-                height="480" allow="autoplay"></iframe>
+            <h2 style="margin-top: 3rem; color: var(--primary-color);">🎥 Video Presentation</h2>
+            <div style="margin-bottom: 2rem;">
+                <iframe src="https://drive.google.com/file/d/1BZu-OeAn8KMWSIRsTtF8JNkD97Yl97E-/preview" width="100%"
+                    height="480" allow="autoplay"></iframe>
+            </div>
 
-            <h2>📊 Slides</h2>
-            <iframe src="https://docs.google.com/presentation/d/16oaQyTHS0l7Gc6x26TAGTm7QqnUzbtkgo_8m58yyCOU/preview"
-                width="100%" height="480" allowfullscreen></iframe>
+            <h2 style="margin-top: 3rem; color: var(--primary-color);">📊 Presentation Slides</h2>
+            <div style="margin-bottom: 2rem;">
+                <iframe
+                    src="https://docs.google.com/presentation/d/16oaQyTHS0l7Gc6x26TAGTm7QqnUzbtkgo_8m58yyCOU/preview"
+                    width="100%" height="480" allowfullscreen></iframe>
+            </div>
 
-            <h2>📂 GitHub Repository</h2>
+            <h2 style="margin-top: 3rem; color: var(--primary-color);">📂 GitHub Repository</h2>
             <p>
                 <a href="https://github.com/pbasswerner/physio-stream" class="btn" target="_blank">View on GitHub</a>
             </p>
@@ -49,9 +65,17 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer style="margin-top: 4rem;">
         <div class="container">
-            <p>&copy; 2025 Paula Bass Werner. All Rights Reserved.</p>
+            <div class="footer-content">
+                <p>&copy; 2025 Paula Bass Werner. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="index.html#home">Home</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#projects">Projects</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+            </div>
         </div>
     </footer>
 
